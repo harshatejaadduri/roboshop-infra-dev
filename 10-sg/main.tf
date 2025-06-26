@@ -1,5 +1,5 @@
 module "frontend_sg" {
-  source = "../../terraform-sg"
+  source = "git::https://github.com/harshatejaadduri/terraform-sg.git?ref=main"
   project = var.project
   environment = var.environment
 
